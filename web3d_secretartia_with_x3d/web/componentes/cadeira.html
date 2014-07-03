@@ -1,0 +1,106 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/file.css">
+        <script src="js/file.js"></script>
+        
+    </head>
+    <body>
+        
+
+    <x3d width="1200px" height="650px">
+        <scene >
+        <!-- scale='1 1 1' -->
+        <transform  translation="0 0 0" rotation='0.3 0 1 20.4' >
+            <transform translation="0 0 -1">
+                <group>
+                    
+<!-- Inicio da Cadeira -->
+            <transform   rotation='0.3 0 1 20.4'> 
+                <shape>
+                    <directionalLight direction='4 1 1' intensity='1.0' shadowIntensity='0.6' > </directionalLight>
+                </shape>
+            </transform>
+
+            <transform   rotation='0.3 0 1 20.4'>
+                <transform translation="0 0 -1">
+                    <group>
+                        <!-- Tabua Sentar -->
+                        <transform translation="-0.4 -2.3 2">
+                            <shape>
+                                <appearance>
+                                    <material transparency='0' diffuseColor='#8B4513' > </material>
+                                </appearance>
+                                <box solid='true' size= "0.2 2.3 2.8"> </box>
+                            </shape>
+                        </transform>
+                        
+                        <!-- Apoio Escosta -->
+                        <transform rotation='0 1 0 -0.2' translation="1 -2.3 3.7">
+                            <shape>
+                                <appearance>
+                                    <material transparency='0' diffuseColor='#8B4513' > </material>
+                                </appearance>
+                                <box solid='true' size='3 2.3 0.2'> </box>
+                            </shape>
+                        </transform>
+
+                        <!-- Apoio Frente Direita -->
+                        <transform translation="-1.4 -1.4 1">
+                            <shape>
+                                <appearance>
+                                    <material transparency='0' diffuseColor='#8B4513' > </material>
+                                </appearance>
+                                <box solid='true' size='1.8 0.2 0.2'> </box>
+                            </shape>
+                        </transform>
+                        
+                        <!-- Apoio Atras Direita -->
+                        <transform translation="-1.4 -1.4 3.2">
+                            <shape>
+                                <appearance>
+                                    <material transparency='0' diffuseColor='#8B4513' > </material>
+                                </appearance>
+                                <box solid='true' size='1.8 0.2 0.2'> </box>
+                            </shape>
+                        </transform>
+
+                        <!-- Apoio Frente Esquerda -->
+                        <transform translation="-1.4 -3.2 1">
+                            <shape>
+                                <appearance>
+                                    <material transparency='0' diffuseColor='#8B4513' > </material>
+                                </appearance>
+                                <box solid='true' size='1.8 0.2 0.2'> </box>
+                            </shape>
+                        </transform>
+                        
+                        <!-- Apoio Atras Esquerda -->
+                        <transform translation="-1.4 -3.2 3.2">
+                            <shape>
+                                <appearance>
+                                    <material transparency='0' diffuseColor='#8B4513' > </material>
+                                </appearance>
+                                <box solid='true' size='1.8 0.2 0.2'> </box>
+                            </shape>
+                        </transform>
+                    </group>
+                </transform>
+            </transform >
+<!-- Fim da Cadeira -->
+            
+                </group>
+            </transform>
+         </transform >
+        </scene>
+    </x3d>
+    
+    
+    </body>
+</html>

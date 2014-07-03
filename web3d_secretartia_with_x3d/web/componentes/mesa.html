@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Secretaria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/file.css">
+        <script src="js/file.js"></script>
+
+    </head>
+    <body>
+    <x3d width="1200px" height="650px">
+        <scene >
+        <!-- scale='1 1 1' -->
+        <transform  translation="0 0 0" rotation='0.3 0 1 20.4' >
+            <transform translation="0 0 -1">
+                <group>
+                    <!-- Tabua Superior -->
+                    <transform translation="-0 0 0 0">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='0.3 7.8 3.5'> </box>
+                        </shape>
+                    </transform>
+                    <!-- Apoio Esquerdo -->
+                    <transform translation="-1.4 3.7 0">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='3 0.3 3.4'> </box>
+                        </shape>
+                    </transform>
+                    <!-- Apoio Direito -->
+                    <transform translation="-1.4 -3.7 0">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='3 0.3 3.4'> </box>
+                        </shape>
+                    </transform>
+                    <!-- Apoio Centro -->
+                    <transform translation="-1.4 1.7 0">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='3 0.3 3.4'> </box>
+                        </shape>
+                    </transform>
+                    <!-- Gaveta Pequena -->
+                    <transform translation="-0.6 2.7 0">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='0.8 1.6 3.4'> </box>
+                        </shape>
+                    </transform>
+                    
+                    <!-- Abrir Gaveta -->
+                    <transform translation="-0.5 2.7 1.7">
+                        <shape>
+                            <appearance>
+                                 <!-- <imageTexture Texture url="images/texture.png"> </imageTexture> -->
+                                 <material transparency='0' diffuseColor='#8B4513' > </material>
+                            </appearance>
+                            
+                            <sphere radius="0.1"></sphere>
+                        </shape>
+                    </transform>
+                    
+                    <!-- Apoio Teclado -->
+                    <transform translation="-0.6 -1 0.5">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='0.2 5 3.4'> </box>
+                        </shape>
+                    </transform>
+                    
+                    <!-- Tabua Trazeira -->
+                    <transform translation="-1.5 0 -1.65">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='2.8 7.7 0.1'> </box>
+                        </shape>
+                    </transform>
+                    
+                    <!-- Apoio Impressora -->
+                    <transform translation="-1.8 -1 -0.7">
+                        <shape>
+                            <appearance>
+                                 <imageTexture Texture url="images/texture.png"> </imageTexture>
+                            </appearance>
+                            <material transparency='0' diffuseColor='#8B4513' > </material>
+                            <box solid='true' size='0.2 5 2'> </box>
+                        </shape>
+                    </transform>
+                    
+                </group>
+            </transform>
+         </transform >
+        </scene>
+    </x3d>
+</body>     
+</html>
+
+<!-- 
+<text string='Times 32px' solid='false'>
+            <fontstyle family="'Times' 'Orbitron'" size="0.8"></fontstyle>
+        </text>
+-->
+
+
+
+

@@ -1,0 +1,89 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+--><!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Computador</title>
+        <link rel="stylesheet" href="css/file.css">
+        <script src="js/file.js"></script>
+    <!-- 
+    <link rel="stylesheet" type="text/css"
+          href="http://www.x3dom.org/download/x3dom.css">
+    </link>
+    <script type="text/javascript"
+            src="http://www.x3dom.org/download/x3dom.js">
+    </script>
+    -->
+  </head>
+  <body>
+<x3d width="1200px" height="650px">
+  <scene>
+  
+  <!-- Base do Pc -->
+   <transform rotation="0 0 1 0" translation="0 0 0 ">
+      <shape>
+        <appearance>
+          <material transparency='0' diffuseColor='gray' > </material>
+        </appearance>
+          <box solid='true' size='0.1 2.5 3.5'> </box>
+      </shape>
+    </transform>
+      
+    
+   <transform rotation='0 0 1 -20.25' translation="1.2 1.4 0">
+      <shape>  
+        <Appearance>
+            <material transparency='0' diffuseColor='black' >
+         	
+            </material>
+        </Appearance>
+          <box solid='true' size='0.05 2.5 3.5'> </box>
+      </shape>
+    </transform>
+    
+    <!-- Monitor parte de Traz -->
+   <transform rotation='0 0 1 -20.25' translation="1.2 1.44 0">
+      <shape>  
+        <appearance>
+        <imageTexture Texture url="images/images.jpeg"> </imageTexture>
+        </appearance>
+          <material transparency='0' diffuseColor='gray' > 
+         	
+          </material>
+        
+          <box solid='true' size='0.001 2.5 3.5'> </box>
+      </shape>
+    </transform>
+    
+  <!-- TouchPad -->
+   <transform translation="0.1 -0.8 0 " >
+      <shape>
+        <appearance>
+          <material transparency='0' diffuseColor="#E8E8E8" > </material>
+        </appearance>
+        <box solid='false' size='0.01 0.6 1.1'> </box>
+      </shape>
+    </transform>
+    
+    <!-- Teclado -->
+   <transform translation="0.1 0.3 0 ">
+      <shape>
+        <appearance>
+          <imageTexture Texture url="images/teclado.png"> </imageTexture>
+        </appearance>
+          <material transparency='0' diffuseColor='black' > </material>
+          <box solid='true' size='0.01 1.5 3'> </box>
+      </shape>
+    </transform>
+        
+  </scene>
+    
+</x3d>
+  </body>
+</html>
