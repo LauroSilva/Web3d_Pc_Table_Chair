@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.web.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/web-project/3">
-            <name>web3d_secretartia_with_x3d</name>
+            <name>web3d_pc_table_chair</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <web-module-libraries/>
             <web-module-additional-libraries/>

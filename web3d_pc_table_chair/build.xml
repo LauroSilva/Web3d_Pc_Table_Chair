@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="web3d_secretartia_with_x3d" default="default" basedir=".">
-    <description>Builds, tests, and runs the project web3d_secretartia_with_x3d.</description>
+<project name="web3d_pc_table_chair" default="default" basedir=".">
+    <description>Builds, tests, and runs the project web3d_pc_table_chair.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
